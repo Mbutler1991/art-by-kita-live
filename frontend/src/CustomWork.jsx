@@ -79,7 +79,7 @@ const CustomWork = () => {
     submission.append("canvasSizes", formData.canvasSizes.join(", "));
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/contact/api/custom-work-request/", {
+      const response = await fetch("https://art-by-kita-81626722ece0.herokuapp.com/contact/api/custom-work-request/", {
         method: "POST",
         body: submission,
       });

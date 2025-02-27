@@ -96,7 +96,7 @@ const Contact = () => {
   // ✅ Function to fetch the CSRF token from Django API
   async function getCSRFToken() {
     try {
-      const response = await fetch("http://127.0.0.1:8000/contact/api/csrf/", {
+      const response = await fetch("https://art-by-kita-81626722ece0.herokuapp.com/contact/api/csrf/", {
         method: "GET",
         credentials: "include",  // ✅ Ensures CSRF cookie is set
       });
