@@ -4,7 +4,7 @@ from .models import Painting
 
 class PaintingAdmin(admin.ModelAdmin):
     list_display = (
-        'title', 'price', 'dimensions', 'materials', 'description', 'price'
+        'title', 'price', 'dimensions', 'materials', 'description',
         )
     search_fields = ('title', 'description', 'materials')
 

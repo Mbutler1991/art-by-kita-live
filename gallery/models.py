@@ -14,8 +14,8 @@ class Painting(models.Model):
         max_digits=6,
         decimal_places=2,
         validators=[MinValueValidator(0.01)]
-    ),
-    created_at = models.DateTimeField(auto_now_add=True),
+    )
+    created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     
     def __str__(self):
