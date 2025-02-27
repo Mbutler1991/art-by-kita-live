@@ -24,12 +24,13 @@ BREVO_API_KEY = env('BREVO_API_KEY', default="dummy_value")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'art-by-kita-ci-af8ba42cd883.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'art-by-kita-ci-af8ba42cd883.herokuapp.com', 'https://artbykita.netlify.app']
 
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Vite frontend
+    "http://localhost:5173",
+    'https://artbykita.netlify.app',
 ]
 
 # Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
@@ -52,6 +53,7 @@ CORS_ALLOW_HEADERS = [
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",  # ✅ Add Vite frontend as a trusted origin
     "https://art-by-kita-ci-af8ba42cd883.herokuapp.com",
+    'https://artbykita.netlify.app',
 ]
 
 # Application definition
