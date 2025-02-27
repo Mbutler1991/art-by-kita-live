@@ -1,0 +1,134 @@
+[
+{
+  "model": "gallery.painting",
+  "pk": 1,
+  "fields": {
+    "title": "Cratloe Woods Lake",
+    "description": "The lake at Cratloe Woods, Ireland. Painted early in the morning.\r\n\r\nAcrylic on stretched canvas.\r\n\r\nOriginal content painted by myself.",
+    "dimensions": "300mm X 400mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1728157313/paintings/u4pq7v0kvaknwerzuust.jpg",
+    "price": "300.00"
+  }
+},
+{
+  "model": "gallery.painting",
+  "pk": 2,
+  "fields": {
+    "title": "Wanaka Tree",
+    "description": "The Wanaka tree, New Zealand painted in a purple hue. Acrylic on stretched canvas..",
+    "dimensions": "609.6mm X 914.4mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1728157382/paintings/lrtzkhsx2ukmfppqfxxt.webp",
+    "price": "260.00"
+  }
+},
+{
+  "model": "gallery.painting",
+  "pk": 3,
+  "fields": {
+    "title": "Anxiety",
+    "description": "Ethereal jellyfish in a surreal dreamscape.\r\nAcrylic on stretched canvas.\r\n\r\nOriginal content, painted by myself.",
+    "dimensions": "300mm X 400mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1728157486/paintings/fnxn1t61j7nnmskhq9rv.jpg",
+    "price": "260.00"
+  }
+},
+{
+  "model": "gallery.painting",
+  "pk": 4,
+  "fields": {
+    "title": "Forest Floor",
+    "description": "Forest floor at dawn.\r\n\r\nAcrylic on stretched canvas.\r\n\r\nOriginal painting, painted by me.",
+    "dimensions": "300mm X 220mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1728158867/paintings/ns2gtc01c9mpa1u3titq.jpg",
+    "price": "200.00"
+  }
+},
+{
+  "model": "gallery.painting",
+  "pk": 5,
+  "fields": {
+    "title": "Mountain Lake",
+    "description": "A mountain lake at sunrise. Painted with acrylic paint on stretched canvas.",
+    "dimensions": "300mm X 400mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1728158945/paintings/b1sldmhiugzc5iigla5c.jpg",
+    "price": "200.00"
+  }
+},
+{
+  "model": "gallery.painting",
+  "pk": 6,
+  "fields": {
+    "title": "Fairy Ring",
+    "description": "Referencing Irish Folklore, Acrylic on Canvas.",
+    "dimensions": "610mm X 750mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1728570279/paintings/p3i83qzujonae4re5ydm.jpg",
+    "price": "360.00"
+  }
+},
+{
+  "model": "gallery.painting",
+  "pk": 7,
+  "fields": {
+    "title": "Stars",
+    "description": "Misty Mountains with fireflies and a border, Acrylic on Canvas.",
+    "dimensions": "610mm X 750mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1728570346/paintings/hsfahaivwoozpgk3rvq1.jpg",
+    "price": "300.00"
+  }
+},
+{
+  "model": "gallery.painting",
+  "pk": 8,
+  "fields": {
+    "title": "Creative Process",
+    "description": "Representation of the Creative Process, Acrylic on Canvas.",
+    "dimensions": "395mm X 530mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1728570471/paintings/txzlrbbzubao1fpet3xf.jpg",
+    "price": "260.00"
+  }
+},
+{
+  "model": "gallery.painting",
+  "pk": 9,
+  "fields": {
+    "title": "Autumn Fall",
+    "description": "Waterfall in Autumn, Acrylic on Canvas",
+    "dimensions": "610mm X 910mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1728570523/paintings/m73ki97pzhhr3mhgohbs.jpg",
+    "price": "340.00"
+  }
+},
+{
+  "model": "gallery.painting",
+  "pk": 10,
+  "fields": {
+    "title": "Hidden Secrets",
+    "description": "Fairies hiding in a moonlit landscape.",
+    "dimensions": "750mm X 500mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1728745311/paintings/e8hwcbnvmrz1uhhxveum.jpg",
+    "price": "300.00"
+  }
+},
+{
+  "model": "gallery.painting",
+  "pk": 11,
+  "fields": {
+    "title": "Celtic Summer",
+    "description": "A landscape of the Irish country side in summer.\r\n\r\nPainted with acrylic on canvas.",
+    "dimensions": "910mm X 600mm",
+    "materials": "Acrylic Paint on Stretched Canvas",
+    "image": "image/upload/v1729854085/paintings/mkhu2kzzwx8o3jfnzdcs.jpg",
+    "price": "600.00"
+  }
+}
+]
