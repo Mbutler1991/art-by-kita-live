@@ -1,5 +1,6 @@
 from django.db import models
 from django.urls import reverse
+from django.utils import timezone
 from cloudinary.models import CloudinaryField
 from django.core.validators import MinValueValidator
 
@@ -13,6 +14,7 @@ class Painting(models.Model):
     price = models.DecimalField(
         max_digits=6,
         decimal_places=2,
+        default=0.00,
         validators=[MinValueValidator(0.01)]
     )
     created_at = models.DateTimeField(auto_now_add=True)
