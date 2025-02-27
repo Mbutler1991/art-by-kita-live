@@ -29,9 +29,9 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'art-by-kita-81626722ece0.herokuapp.c
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "localhost:5173",
-    'artbykita.netlify.app',
-    'art-by-kita-81626722ece0.herokuapp.com',
+    "http://localhost:5173",
+    'https://artbykita.netlify.app',
+    'https://art-by-kita-81626722ece0.herokuapp.com',
 ]
 
 # Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
@@ -52,9 +52,9 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "localhost:5173",  # ✅ Add Vite frontend as a trusted origin
-    "art-by-kita-81626722ece0.herokuapp.com/",
-    'artbykita.netlify.app',
+    "http://localhost:5173",  # ✅ Add Vite frontend as a trusted origin
+    "https://art-by-kita-81626722ece0.herokuapp.com/",
+    'https://artbykita.netlify.app',
 ]
 
 # Application definition
