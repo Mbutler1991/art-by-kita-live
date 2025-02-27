@@ -10,7 +10,7 @@ from art_by_kita.sitemaps import sitemaps
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('home.urls')),
+    path("", TemplateView.as_view(template_name="index.html"), name="home"),
     path('contact/', include('contact.urls')),
     path('gallery/', include('gallery.urls')),
     path('orders/', include('orders.urls')),
