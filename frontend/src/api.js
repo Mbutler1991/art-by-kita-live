@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://art-by-kita-81626722ece0.herokuapp.com//gallery/api"; // Adjust based on your Django API
+const API_URL = "https://art-by-kita-81626722ece0.herokuapp.com/gallery/api"; // Adjust based on your Django API
 
 export const fetchPaintings = async () => {
     try {
