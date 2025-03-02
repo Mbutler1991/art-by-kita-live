@@ -60,7 +60,7 @@ const Contact = () => {
         setError("reCAPTCHA failed to load. Please try again.");
         return;
       }
-      formData.recaptchaToken = await window.grecaptcha.execute("YOUR_SITE_KEY", { action: "contact_form" });
+      formData.recaptchaToken = await window.grecaptcha.execute("6LdeFNYqAAAAAEpDXk-ahze2P0oDYZEp-yJHKipK", { action: "contact_form" });
     }
   
     try {
