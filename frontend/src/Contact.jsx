@@ -68,7 +68,7 @@ const Contact = () => {
       const csrfToken = await getCSRFToken();
   
       // 2️⃣ Then, send the POST request with the CSRF token
-      const response = await fetch("http://127.0.0.1:8000/contact/api/contact/", {
+      const response = await fetch("https://art-by-kita-81626722ece0.herokuapp.com/contact/api/contact/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
