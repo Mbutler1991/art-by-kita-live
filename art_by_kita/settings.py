@@ -31,6 +31,8 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     'https://artbykita.netlify.app',
+    'https://artbykita.com',
+    'https://www.artbykita.com',
     'https://art-by-kita-81626722ece0.herokuapp.com',
 ]
 
@@ -58,6 +60,8 @@ CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",  # ✅ Add Vite frontend as a trusted origin
     "https://art-by-kita-81626722ece0.herokuapp.com",
     'https://artbykita.netlify.app',
+    'https://artbykita.com',
+    'https://www.artbykita.com',
 ]
 
 # Application definition
